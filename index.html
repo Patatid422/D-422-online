@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>D'422 Online</title>
 
 <style>
@@ -12,49 +14,82 @@ background-color:#111;
 color:white;
 font-family:Arial;
 text-align:center;
+margin:0;
+}
+
+header{
+background:#000;
+padding:40px;
 }
 
 h1{
 color:#ff3c00;
-font-size:50px;
+font-size:40px;
+}
+
+h2{
+color:#ffa500;
+}
+
+.menu{
+padding:30px;
 }
 
 .pizza{
-margin:20px;
+background:#1c1c1c;
+margin:15px;
 padding:20px;
-border:1px solid #444;
 border-radius:10px;
 }
 
-.boton{
-background:#ff3c00;
+.whatsapp{
+display:inline-block;
+margin-top:30px;
+padding:15px 30px;
+background:#25D366;
 color:white;
-padding:15px;
-border-radius:8px;
-text-decoration:none;
 font-size:20px;
+text-decoration:none;
+border-radius:10px;
+}
+
+footer{
+margin-top:40px;
+padding:20px;
+background:#000;
 }
 
 </style>
-
 </head>
 
 <body>
 
-<h1>D'422 Online 🍕</h1>
+<header>
+
+<h1>🍕 D'422 Online</h1>
 
 <h2>Pizzas artesanales hechas con pasión</h2>
 
-<h3>Menú</h3>
+<p>Las mejores pizzas del conjunto</p>
+
+<a class="whatsapp" href="#">
+PEDIR POR WHATSAPP
+</a>
+
+</header>
+
+<section class="menu">
+
+<h2>Menú</h2>
 
 <div class="pizza">
 <h3>Pepperoni</h3>
-<p>Clásica pizza con abundante queso y pepperoni.</p>
+<p>Clásica pizza con abundante pepperoni.</p>
 </div>
 
 <div class="pizza">
 <h3>Hawaiana</h3>
-<p>Jamón, piña y queso derretido.</p>
+<p>Jamón y piña con queso derretido.</p>
 </div>
 
 <div class="pizza">
@@ -62,12 +97,14 @@ font-size:20px;
 <p>Pollo jugoso con salsa BBQ.</p>
 </div>
 
-<br>
+</section>
 
-<a class="boton" href="https://wa.me/573XXXXXXXX">
-Pedir por WhatsApp
-</a>
+<footer>
+
+<p>D'422 Online</p>
+<p>Pizzas artesanales hechas en casa</p>
+
+</footer>
 
 </body>
-
 </html>
