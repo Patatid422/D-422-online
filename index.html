@@ -60,6 +60,21 @@ header p{
   transition:transform 0.2s;
 }
 
+.pizzas-grid{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:25px;
+}
+
+@media (min-width:900px){
+
+.pizzas-grid{
+grid-template-columns:1fr 1fr;
+}
+
+}
+
+  
   .categoria{
   color:#ff2b2b;
   font-size:24px;
