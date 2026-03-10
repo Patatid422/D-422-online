@@ -81,6 +81,20 @@ header p{
   padding:40px 20px;
 }
 
+ .menu{
+  padding:40px 20px;
+  display:grid;
+  grid-template-columns:1fr;
+  gap:20px;
+}
+
+/* columnas para pantallas grandes */
+@media (min-width:900px){
+
+.menu{
+grid-template-columns:1fr 1fr;
+}
+} 
 .pizza{
   background:#1c1c1c;
   margin:15px auto;
