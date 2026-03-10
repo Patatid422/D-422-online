@@ -81,20 +81,21 @@ header p{
   padding:40px 20px;
 }
 
- .menu{
-  padding:40px 20px;
+/* contenedor de pizzas */
+.pizzas-grid{
   display:grid;
   grid-template-columns:1fr;
-  gap:20px;
+  gap:25px;
 }
 
-/* columnas para pantallas grandes */
+/* columnas en laptop */
 @media (min-width:900px){
 
-.menu{
+.pizzas-grid{
 grid-template-columns:1fr 1fr;
 }
-} 
+
+}
 .pizza{
   background:#1c1c1c;
   margin:15px auto;
@@ -171,8 +172,10 @@ Pollo y Champiñones
 
 <!-- PIZZAS BASES -->
 <h3 class="categoria">🔥 PIZZAS BASES</h3>
+<div class="pizzas-grid">
 <div class="pizza">
 
+  
 <h3>🍕 Margarita</h3>
 <p>Mediana: $23.500 | Familiar: $33.500</p>
 
@@ -183,6 +186,7 @@ target="_blank">
 </a>
 
 </div>
+  
 <div class="pizza">
 
 <h3>🧀 Jamón y Queso</h3>
